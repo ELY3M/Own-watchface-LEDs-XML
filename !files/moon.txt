@@ -1,0 +1,67 @@
+        <Group x="100" y="84" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon" alpha="255">
+            <Variant mode="AMBIENT" target="alpha" value="0"/>
+            <Transform target="angle" value="0 + (0)"/>
+            <Transform target="alpha" value="clamp(floor((100 + (0)) / 100 * 255), 0, 255)"/>
+            <PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon29_dc44" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;28.5)*(([MOON_PHASE_POSITION])&lt;29.5))?100:0))) / 100 * 255), 0, 255)"/>
+                <Image resource="moon29"/>
+            </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon28_184b" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;27.5)*(([MOON_PHASE_POSITION])&lt;28.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon28"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon27_b3ec" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;26.5)*(([MOON_PHASE_POSITION])&lt;27.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon27"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon26_c7eb" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;25.5)*(([MOON_PHASE_POSITION])&lt;26.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon26"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon25_27d9" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;24.5)*(([MOON_PHASE_POSITION])&lt;25.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon25"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon24_c77c" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;23.5)*(([MOON_PHASE_POSITION])&lt;24.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon24"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon23_0535" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;22.5)*(([MOON_PHASE_POSITION])&lt;23.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon23"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon22_f441" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;21.5)*(([MOON_PHASE_POSITION])&lt;22.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon22"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon21_2f8a" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;20.5)*(([MOON_PHASE_POSITION])&lt;21.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon21"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon20_3fd8" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;19.5)*(([MOON_PHASE_POSITION])&lt;20.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon20"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon19_8d49" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;18.5)*(([MOON_PHASE_POSITION])&lt;19.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon19"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon18_729d" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;17.5)*(([MOON_PHASE_POSITION])&lt;18.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon18"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon17_d21d" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;16.5)*(([MOON_PHASE_POSITION])&lt;17.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon17"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon16_6773" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;15.5)*(([MOON_PHASE_POSITION])&lt;16.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon16"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon15_8f8f" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;14.5)*(([MOON_PHASE_POSITION])&lt;15.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon15"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon14_2eea" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;13.5)*(([MOON_PHASE_POSITION])&lt;14.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon14"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon13_47fc" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;12.5)*(([MOON_PHASE_POSITION])&lt;13.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon13"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon12_4f82" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;11.5)*(([MOON_PHASE_POSITION])&lt;12.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon12"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon11_5edb" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;10.5)*(([MOON_PHASE_POSITION])&lt;11.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon11"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon10_0ed9" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;9.5)*(([MOON_PHASE_POSITION])&lt;10.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon10"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon9_f583" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;8.5)*(([MOON_PHASE_POSITION])&lt;9.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon9"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon8_a2c4" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;6.5)*(([MOON_PHASE_POSITION])&lt;7.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon8"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon7_d8bb" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;6.5)*(([MOON_PHASE_POSITION])&lt;7.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon7"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon6_5feb" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;5.5)*(([MOON_PHASE_POSITION])&lt;6.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon6"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon5_9367" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;4.5)*(([MOON_PHASE_POSITION])&lt;5.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon5"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon4_aa97" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;3.5)*(([MOON_PHASE_POSITION])&lt;4.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon4"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon3_4d03" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;2.5)*(([MOON_PHASE_POSITION])&lt;3.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon3"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon2_f590" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;1.5)*(([MOON_PHASE_POSITION])&lt;2.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon2"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon1_4e45" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;0.5)*(([MOON_PHASE_POSITION])&lt;1.5))?100:0))) / 100 * 255), 0, 255)"/>
+            <Image resource="moon1"/>
+        </PartImage><PartImage x="0" y="0" width="103" height="103" pivotX="0.5" pivotY="0.5" name="moon0_a060" alpha="255"><Transform target="alpha" value="clamp(floor((0 + ((((([MOON_PHASE_POSITION])&gt;27.5)+(([MOON_PHASE_POSITION])&lt;.5))?100:0) )) / 100 * 255), 0, 255)"/>
+            <Image resource="moon0"/>
+        </PartImage></Group>
+
+
