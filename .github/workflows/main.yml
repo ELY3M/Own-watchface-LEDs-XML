@@ -41,7 +41,12 @@ jobs:
         run: |
             chmod +x gradlew        
             ./gradlew assembleRelease
-         
+        
+      - name: current dir
+        run: | 
+            pwd
+            ls -la watchface/build/outputs/apk/release 
+
       #old - /usr/local/lib/android/sdk/build-tools/
       #new - $ANDROID_HOME/build-tools/
       - name: Setup build tool version variable
@@ -55,7 +60,7 @@ jobs:
         uses: r0adkll/sign-android-release@v1
         id: sign_app
         with:
-          releaseDirectory: app/build/outputs/apk/release/
+          releaseDirectory: watchface/build/outputs/apk/release/
           signingKeyBase64: ${{ secrets.KEY }}
           alias: ${{ secrets.ALIAS }}
           keyStorePassword: ${{ secrets.PASSWORD }}
